@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File Converter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">File Converter</h1>
+      <form id="uploadForm" enctype="multipart/form-data">
+        <input
+          type="file"
+          id="fileInput"
+          accept=".csv, .xls, .xlsx"
+          class="custom-file-input"
+        />
+        <div class="buttons">
+          <button type="submit">Get JSON</button>
+          <button id="getRequestButton">Get Value</button>
+        </div>
+      </form>
+      <div id="output"></div>
+      <div id="documentation"></div>
+      <!-- Add this line -->
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.4/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
