@@ -1,8 +1,8 @@
-﻿# file-converter
-**Overview:**
-The File Converter project is a web application that allows users to upload CSV, Excel, or spreadsheet files, convert the data to JSON format, generate an API endpoint based on the uploaded file, and display documentation of the uploaded data.
+﻿# FILE CONVERTER
+## Overview:
+The File Converter project is a web application that allows users to upload CSV, Excel, or spreadsheet files, convert the data to JSON format, and display documentation of the uploaded data.
 
-**Features:**
+##Features:
 
 1. **File Upload:**
     - Users can select and upload CSV, Excel, or spreadsheet files using the provided file input field.
@@ -10,15 +10,11 @@ The File Converter project is a web application that allows users to upload CSV,
 2. **File Conversion:**
     - Upon file upload, the application converts the data from the uploaded file into JSON format.
     - It utilizes the SheetJS library to parse and process Excel and spreadsheet files.
-3. **API Endpoint Generation:**
-    - Users can input an API endpoint name.
-    - The application generates an API endpoint URL based on the provided name.
-    - The API endpoint allows access to the JSON data converted from the uploaded file.
-4. **Documentation Generation:**
+3. **Documentation Generation:**
     - The application generates documentation of the uploaded data.
     - The documentation includes information about the objects and their types extracted from the JSON data.
 
-**Components:**
+## Components:
 
 1. **HTML Page (index.html):**
     - Provides the user interface for uploading files and displaying output.
@@ -30,24 +26,24 @@ The File Converter project is a web application that allows users to upload CSV,
     - Utilizes the SheetJS library for parsing Excel and spreadsheet files.
     - Dynamically updates the HTML elements to display output and documentation.
 
-**Usage:**
+## Usage:
 
 1. Access the File Converter web application.
 2. Select a CSV, Excel, or spreadsheet file using the file input field.
 3. Click the "Upload" button to initiate the file upload process.
 4. Optionally, input an API endpoint name and click the "Get Request" button to generate an API endpoint URL.
-5. View the converted JSON data, generated API endpoint URL, and documentation of the uploaded data on the web page.
+5. View the converted JSON data, and documentation of the uploaded data on the web page.
 
-**Dependencies:**
+## Dependencies:
 
 - SheetJS library: Used for parsing and processing Excel and spreadsheet files.
 
-**Future Enhancements:**
+## Future Enhancements:
 
 - Implement user authentication and authorization for accessing API endpoints.
 - Allow customization of API endpoint URL structure.
 - Enhance error handling and validation for file uploads and API requests.
 - Add support for additional file formats and data sources.
 
-**Conclusion:**
+## Conclusion:
 The File Converter project provides a convenient solution for converting CSV, Excel, or spreadsheet files to JSON format, generating API endpoints, and documenting the uploaded data. With its user-friendly interface and straightforward functionality, it serves as a valuable tool for data conversion and integration tasks.
